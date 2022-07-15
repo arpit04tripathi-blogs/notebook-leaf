@@ -5,7 +5,7 @@ description: Arpit Tripathi's notebook.
 
 # DNS config
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/blogs" # the subpath of your site, e.g. /blog
+baseurl: "/notebook" # the subpath of your site, e.g. /blog
 
 # theme variables
 iconURL: "/assets/logo/logo-arpit04tripathi.jpeg" #url/iconURL
