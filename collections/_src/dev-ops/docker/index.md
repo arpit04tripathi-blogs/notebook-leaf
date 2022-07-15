@@ -4,7 +4,6 @@ title: Docker
 permalink: /docker
 ---
 
-- [containers](containers)
 - TOC
 {:toc}
 
@@ -12,6 +11,7 @@ permalink: /docker
 
 Docker is a famous tool for containerization.
 
+- [containers](containers)
 # Architecture
 
 - Technically, Container is Layers of images.
