@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My Notes
-permalink: /about
+title: Notes
+permalink: /notes
 ---
 
 ## Pre-requisites / Basics
@@ -27,7 +27,7 @@ permalink: /about
 - Basic - [HTML](html), [CSS](css), [Javascript](js), [SASS](sass)
 - CSS Frameworks - [Bootstrap](bootstrap)
 - Frameworks - [Vue.js](vue), [Angular](angular)
-- Testing - [Jest (official)](https://jestjs.io/){:target="_blank"}
+- Testing - [Jest (official)](https://jestjs.io/){:target="\_blank"}
 
 ## Databases
 
@@ -37,11 +37,11 @@ permalink: /about
 
 ## Devops Roadmap
 
-- [Roadmap](https://medium.com/hackernoon/the-2018-devops-roadmap-31588d8670cb){:target="_blank"}
+- [Roadmap](https://medium.com/hackernoon/the-2018-devops-roadmap-31588d8670cb){:target="\_blank"}
 - Build Tools - [Gradle](gradle), [maven](maven)
 - Automation - [jenkins](jenkins), Ansible, Checf
 - Containerization Tools - [Containerization](containerization), [Docker](docker)
-- Container Orchestration Tools - Kubernetes, Openshift (RedHat) , Hasicorp Nomad, Docker Swarm, [etc...](https://devopscube.com/docker-container-clustering-tools/){:target="_blank"}
+- Container Orchestration Tools - Kubernetes, Openshift (RedHat) , Hasicorp Nomad, Docker Swarm, [etc...](https://devopscube.com/docker-container-clustering-tools/){:target="\_blank"}
 
 ## Architect Roadmap
 
@@ -64,8 +64,8 @@ Programming Basics
 
 ## Roadmaps
 
-- [All Roadmaps](https://roadmap.sh/){:target="_blank"}
-- [2021 Developer RoadMap](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html){:target="_blank"}
+- [All Roadmaps](https://roadmap.sh/){:target="\_blank"}
+- [2021 Developer RoadMap](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html){:target="\_blank"}
 - [To-do List](todo)
 
 ## Miscellaneous
