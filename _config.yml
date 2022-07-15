@@ -1,0 +1,31 @@
+# Site settings
+# accessed via {{ site.title }}, {{ site.email }}
+title: Arpit Tripathi
+description: Arpit Tripathi's notebook.
+
+# DNS config
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blogs" # the subpath of your site, e.g. /blog
+
+# theme variables
+iconURL: "/assets/logo/logo-arpit04tripathi.jpeg" #url/iconURL
+
+# custom variables
+cdn: https://raw.githubusercontent.com/arpit04tripathi/cdn/main/notebook
+
+# Setting theme
+# theme: jekyll-theme-leaf                      # For supported theme
+remote_theme: https://github.com/supunkavinda/jekyll-theme-leaf # For custom themes
+
+# social icons
+github_username: arpit04tripathi
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Collections - post, notes, etc.
+collections_dir: collections
+collections:
+  src:
+    output: true
