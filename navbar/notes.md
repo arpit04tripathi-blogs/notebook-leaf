@@ -12,12 +12,12 @@ permalink: /notes
 
 ## BackEnd Roadmap
 
-- Java
-  - Dev - [Java](java), [Spring](spring/), [Hibernate](hibernate)
-  - Testing - [JUnit](junit), Mockito, [Cucumber](cucumber)
-  - Libraries - [JSON](json), [Lombok](lombok), [XML](xml), [Logger](logger)
-  - API Doc - [Swagger](swagger)
-  - [Design Patterns](design-patterns)
+- Dev - [Java](java), [Spring](spring/), [Hibernate](hibernate)
+- Testing - [JUnit](junit), Mockito, [Cucumber](cucumber)
+- Libraries - [JSON](json), [Lombok](lombok), [XML](xml), [Logger](logger)
+- API Doc - [Swagger](swagger)
+- [Design Patterns](design-patterns)
+
 - Identity and Authorization - [Auth0](auth0)
 - Messaging - [Apache Kafka](kafka), RabbitMQ, SQS
 - Cloud - [AWS](aws), NGINX, ELK, Azure
@@ -40,7 +40,7 @@ permalink: /notes
 - [Roadmap](https://medium.com/hackernoon/the-2018-devops-roadmap-31588d8670cb){:target="\_blank"}
 - Build Tools - [Gradle](gradle), [maven](maven)
 - Automation - [jenkins](jenkins), Ansible, Checf
-- Containerization Tools - [Containerization](containerization), [Docker](docker)
+- Containerization - [Docker](docker), [Containerization](containerization)
 - Container Orchestration Tools - Kubernetes, Openshift (RedHat) , Hasicorp Nomad, Docker Swarm, [etc...](https://devopscube.com/docker-container-clustering-tools/){:target="\_blank"}
 
 ## Architect Roadmap

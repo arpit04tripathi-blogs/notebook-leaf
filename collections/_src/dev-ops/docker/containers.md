@@ -9,12 +9,12 @@ permalink: /docker/containers
 
 ---
 
-## What is a Container
+## What is a Container?
 - A way to package applications with all necessary dependencies and configuration.
 - Portable artifact, easily shared and moved around
 - Makes development and deployment more efficient
 
-## Where do containers live - Container Repository
+## Where do containers live?
 - Container repository
   - Private repositories by companies
   - Public repository for docker - [DockerHub](https://hub.docker.com){:target="_blank"}

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Docker
-permalink: /docker
+permalink: /docker/
 ---
 
 - TOC
@@ -9,73 +9,15 @@ permalink: /docker
 
 ---
 
-Docker is a famous tool for containerization.
+Docker is a famous tool for containerization - Build and run an image as a container, Share images using Docker Hub.
 
-- [containers](containers)
-# Architecture
-
-- Technically, Container is Layers of images.
-- Mostly Linux Base Image (alpine:3.10), because small in size
-- Application image on top
-
-Docker uses a typical client-server architecture. The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing Docker containers. The Docker client and daemon communicate via sockets or through a RESTful API.
-
-![]({{site.cdn}}/webservices/docker/docker-architecture-2.png)
-
-![]({{site.cdn}}/webservices/docker/docker-components.png)
-
-![]({{site.cdn}}/webservices/docker/docker-architecture.png)
-
-## Docker vs Virtual Machine (VM)
-## Docker on OS level
-Operating Systems has 2 layers
-1. OS Kernel - communicates with Hardware - CPU, memory etc
-2. Applications layer
-
-For example, Multiple versions of linux exist which use same linux kernel but they implement different applications on top of their kernel 
-
-## Different levels of absrtaction
-- Docker and VM are both virtualization tools
-  - Docker : virtualises Applications layer of OS while using the kernel of host
-  - VM : Virtualises whole OS (Applications layer + OS kernel)
-- **Size** : Docker image size is much smaller due to this.
-  - Docker images in MBs, while Vm are in GBs
-- **Speed** : Docker containers start and run much fast.
-- **Compatibility** : VM of any OS can run on any OS host
-
-## Why linux based docker containers don't run on windows
-- Host - Windows OS (Applications + Kernel)
-- Linux based image (Aplpications layer) might not be compatible with Host OS kernel
-- Check whether Host can run docker natively, ie. check if your os kernel is compatible with docker images.
-- Workaround - Use Docker Toolbox to abstract way kernel to allow host run the docker images
-
-## How Is Docker Different Than JVM?
-
-- The JVM is Java’s solution for application portability across different platforms — but Docker provides a different kind of virtualization that makes use of the guest operating system libraries, not just the Java application.
-- When a Docker container is launched, a filesystem is allocated, along with the network/bridge interface and IP address.
-- The command (or script) specified in the Dockerfile used to build the underlying Docker image is then executed, and the resulting Linux process runs in isolation.
-- As a result, Docker can be used to package an entire JVM along with the JAR or WAR files and other parts of the application into a single container that can run on any Linux host consistently.
-- This eliminates some of the challenges associated with making sure that the right JAR file version is used on the right JVM.
-- Moreover, CPU and memory resource controls can be used with Docker containers — allowing users to allocate maximum amounts of resources that an application can use.
-
-- A **hypervisor**, also known as a ***virtual machine monitor*** or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
-- A **container engine** is a piece of software that accepts user requests, including command line options, pulls images, and from the end user's perspective runs the container.
-
-![]({{site.cdn}}/webservices/docker/vm-vs-docker.png)
-
-## Docker Basic Workflow
-
-- building an image from a Dockerfile or pulling an image from a registry (like Docker Hub).
-- Once the image is available on the Docker Host, a container can be launched as a runtime environment.
-- Once a container is running, it can be stopped, started, or restarted using the CLI.
-- If changes are made to the container, a user can commit the changes made into a new image with either the same tag (or version) or a different one. The new image can, of course, then be pushed to a registry (like Docker Hub).
-
-![]({{site.cdn}}/webservices/docker/docker-workflow.png)
-
-## Docker Image vs Docker Container
-- Container is running env for IMAGE
-- port binded : talk to application running inside of container
-- virtual file system
+- [Official website](https://docs.docker.com/get-started/){:target="_blank"}
+  - [YT - Docker Tutorial for Beginners (3 Hr)](https://www.youtube.com/watch?v=3c-iBn73dDE&t=124s){:target="_blank"}
+- [Containers](containers)
+- [Architecture](architecture)
+- [Docker vs Virtual Machine (VM)](docker-vs-vm)
+- [Docker vs JVM](docker-vs-jvm)
+- [Docker Basic Workflow](basic-workflow)
 
 # Developing with Docker
 
@@ -259,63 +201,5 @@ volumes: # named volumes
 - with docker containers running through single docker-compose file, they are by default a part of common docker network.
 - we can replace connection uri `mongodb://admin:password@localhost:3000` with `mongodb://admin:password@mongodb-server`
 
-# Docker Volumes
-- Persisting data with docker volumes for
-  - stateful applications
-  - databases
-    - Container runs on host and uses virtual file system `/var/lib/mysql/data`.
-    - This is volatile, so data is gone when we restart or remove the container.
-- Docker Volumes : Folder in physical host file system is mounted into the virtual file system of Docker container
-
-## Docker Volume Types
-
-There are 3 volume types
-
-### Host Volumes
-You decide where on the host file system the reference is made.
-
-```sh
-# host folder --> container folder 
-docker run -v /home/mount/data:/var/lib/mysql/data
-```
-
-### Anonymous Volumes
-For each container a folder is generated by docker that gets mounted
-
-```sh
-# /var/lib/docker/volumes/random-hash/_data
-docker run -v /var/lib/mysql/data
-```
-### Named Volumes
-- Improvement of Anomymous volumes
-- Specifies a name for the volume to be referenced in the host file system
-- ***should be used in production***
-
-```sh
-# /var/lib/docker/volumes/random-hash/_data referenced by my-named-volume
-docker run -v my-named-volume:/var/lib/mysql/data
-```
-
-#### Where is my data on mac
-
-```sh
-# below folder does not exist
-ls /var/lib/docker
-# Docker for mac creates a Linux VM and stores all the Docker data here
-cd Library/Containers/com.docker.docker/Data
-ls
-# get terminal of the VM
-screen com.docker.driver.amd64-linux/tty
-cd /var/lib/docker/volumes
-ls
-ls <named-volume>/_data
-# close terminal of VM
-```
-
-# What's Next
-- Now you can create containers using dockers.
-- These containers will need to be deployed across multiple servers in a distributed way.
-- For this you can learn about `Container Orchestration Tools`
-  - Kubernetes
-  - OpenShift
-  - Nomad
+- [Docker Volumes](volumes)
+- [What's Next](whats-next)
