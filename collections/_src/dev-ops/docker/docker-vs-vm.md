@@ -15,12 +15,10 @@ Operating Systems has 2 layers
 
 For example, Multiple versions of linux exist which use same linux kernel but they implement different applications on top of their kernel
 
-![]({{site.cdn}}/webservices/docker/vm-vs-docker.png)
-
 ## Different levels of absrtaction
 - Docker and VM are both virtualization tools
-  - Docker : virtualises Applications layer of OS while using the kernel of host
-  - VM : Virtualises whole OS (Applications layer + OS kernel)
+  - Docker : `virtualises Applications layer` of OS while using the kernel of host
+  - VM : `Virtualises whole OS` (Applications layer + OS kernel)
 - **Size** : Docker image size is much smaller due to this.
   - Docker images in MBs, while Vm are in GBs
 - **Speed** : Docker containers start and run much fast.
@@ -33,6 +31,8 @@ For example, Multiple versions of linux exist which use same linux kernel but th
 - Workaround - Use Docker Toolbox to abstract way kernel to allow host run the docker images
 
 ![docker-vs-vm](https://www.researchgate.net/profile/Ling-Hong-Hung/publication/299771559/figure/fig4/AS:359778707623937@1462789336136/A-comparison-of-the-architecture-of-virtual-machines-and-Docker-software.png)
+
+![]({{site.cdn}}/webservices/docker/vm-vs-docker.png)
 
 ![7-layers](https://sf.ezoiccdn.com/ezoimgfmt/networkencyclopedia.com/wp-content/uploads/2019/09/application-layer-7-osi-model.jpg?ezimgfmt=ng:webp/ngcb2)
 

@@ -23,7 +23,7 @@ docker pull mysql:5.6           # pulls image from Docker Hub (puclic repo)
 docker images
 
 # new container
-docker run mysql:5.6
+docker run mysql:5.6 # docker pull + docker start
 docker run -d redis # runs in detached mode and prints container id in output
 docker run -d -p 80:80 image service myapp
 

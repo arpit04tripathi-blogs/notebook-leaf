@@ -17,7 +17,6 @@ permalink: /docker/basic-workflow
 ![]({{site.cdn}}/webservices/docker/docker-workflow.png)
 
 ## Docker Image vs Docker Container
-- Container is running env for IMAGE
+- Container is running environment for IMAGE
 - port binded : talk to application running inside of container
 - virtual file system
-

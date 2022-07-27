@@ -32,7 +32,7 @@ permalink: /docker/containers
 - Many steps where something could go wrong
 
 **After Containers**
-- own isolated env (config + PostgresSQL_v9.3 + start_script)
+- container has its own isolated env (config + PostgresSQL_v9.3 + start_script)
 - packaged with all needed configuration
 - one command to install the app
 - you can also run same app with 2 different versions
