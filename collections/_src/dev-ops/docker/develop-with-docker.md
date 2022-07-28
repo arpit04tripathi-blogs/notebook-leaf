@@ -39,4 +39,9 @@ docker logs <container_id or name>
 
 # interactive terminal to log into docker container
 docker exec -it <container_id or name> /bin/bash
+
+docker inspect <container_id or name>
 ```
+
+- `docker run` creates a new container from image and start it
+- `docker start` used for existing docker container

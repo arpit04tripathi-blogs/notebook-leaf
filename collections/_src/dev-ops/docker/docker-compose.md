@@ -30,6 +30,14 @@ services:
 ```bash
 # creates a common docker network and starts all containers in it
 docker-compose -f <filename>.yaml up
+
 # stops all containers and tears down the docker network
-docker-compose -f <filename>.yaml up
+docker-compose -f <filename>.yaml down
+
+# deltes unused docker images
+docker system prune -f
+```
+
+```bash
+docker compose exec cd bash
 ```
