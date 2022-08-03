@@ -14,9 +14,24 @@ permalink: /docker/network
 - Docker provides some default network
 
 ```bash
+# list docker networks
 docker network ls
 # create new network
 docker network create my-network
 # run container in specific network my-network
-docker run -d -p 6000:6379 -e <env_var> --name local-redis --net my-network redis
+docker run -d -p 6000:6379 -e <env_var_1=value> -e <env_var_2=value> --name local-redis --net my-network redis
 ```
+
+```bash
+# multi line command
+# env var can be found in details from docker hub for the image
+docker run -d \
+-p 6000:6379 \
+-e <env_var_1=value> \
+-e <env_var_2=value> \
+--name local-redis \
+--net my-network \
+redis
+```
+
+example - mongodb and mongo-express

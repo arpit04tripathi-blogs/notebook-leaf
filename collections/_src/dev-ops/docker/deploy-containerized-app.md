@@ -17,7 +17,7 @@ permalink: /docker/deploy-containerized-app
 version: '3' # version of docker hub
 services:
   my-app:
-    image: <aws_account_id>.dkr.ecr.eu-west-2.amazonaws.com/app-name:2.4.6
+    image: <aws_account_id>.dkr.ecr.eu-west-2.amazonaws.com/app-name:2.4.6 # private repo aws ecr
     ports:
       - 4000:3000 # host machine port 4000 --> docker container port 3000
   mongodb-server:

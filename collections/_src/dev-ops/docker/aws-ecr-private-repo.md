@@ -24,6 +24,7 @@ docker build -t app-name .
 docker tag app-name:latest <aws_account_id>.dkr.ecr.eu-west-2.amazonaws.com/app-name:latest
 # pushes to AWS ECR
 docker push <aws_account_id>.dkr.ecr.eu-west-2.amazonaws.com/app-name:latest
+
 # This will try to push to DockerHub -> docker.io/library/app-name:latest
 docker push app-name:latest
 ```

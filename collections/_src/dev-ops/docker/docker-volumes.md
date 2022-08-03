@@ -49,8 +49,9 @@ docker run -v my-named-volume:/var/lib/mysql/data
 
 ```sh
 # below folder does not exist
-ls /var/lib/docker
-# Docker for mac creates a Linux VM and stores all the Docker data here
+ls /var/lib/docker/volumes
+# Linux - host has this directory
+# Mac - Docker for mac creates a Linux VM and stores all the Docker data there
 cd Library/Containers/com.docker.docker/Data
 ls
 # get terminal of the VM
@@ -58,5 +59,5 @@ screen com.docker.driver.amd64-linux/tty
 cd /var/lib/docker/volumes
 ls
 ls <named-volume>/_data
-# close terminal of VM
+# close terminal of VM : ctrl+a+k
 ```

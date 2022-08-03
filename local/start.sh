@@ -1,2 +1,2 @@
-# To run locally - using docker
-sh docker/run.sh
+# To run locally - without docker
+bundle exec jekyll serve --incremental
