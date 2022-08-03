@@ -9,12 +9,12 @@ permalink: /docker/containers
 
 ---
 
-## What is a Container
+## What is a Container?
 - A way to package applications with all necessary dependencies and configuration.
 - Portable artifact, easily shared and moved around
 - Makes development and deployment more efficient
 
-## Where do containers live - Container Repository
+## Where do containers live?
 - Container repository
   - Private repositories by companies
   - Public repository for docker - [DockerHub](https://hub.docker.com){:target="_blank"}
@@ -32,7 +32,7 @@ permalink: /docker/containers
 - Many steps where something could go wrong
 
 **After Containers**
-- own isolated env (config + PostgresSQL_v9.3 + start_script)
+- container has its own isolated env (config + PostgresSQL_v9.3 + start_script)
 - packaged with all needed configuration
 - one command to install the app
 - you can also run same app with 2 different versions

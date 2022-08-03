@@ -3,11 +3,11 @@ version: '3'
 services:
   jekyll-server:
     image: jekyll/jekyll:4.0
-    container_name: blogs
+    container_name: notebook
     environment:
       MY_ENV_VAR_DUMMY: 'dummy'
     volumes:
       - '../.:/srv/jekyll'
     ports:
-      - 9090:4000 # 9090 (localhost) => 4000 (docker)
-    command: 'jekyll serve'
+      - 4000:4000 # (localhost port) => (docker port)
+    command: 'jekyll serve --incremental'

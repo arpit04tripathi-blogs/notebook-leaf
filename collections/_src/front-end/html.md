@@ -5,7 +5,7 @@ permalink: /html
 ---
 
 - TOC
-  {:toc}
+{:toc}
 
 ---
 
@@ -181,4 +181,26 @@ permalink: /html
     <footer>Footer</footer>
   </body>
 </html>
+```
+
+# HTML Filepaths
+
+file path = location of a file in a web site's folder structure.
+
+- It is best practice to use relative file paths (if possible).
+- When using relative file paths, your web pages will not be bound to your current base URL.
+- All links will work on your own computer (localhost) as well as on your current public domain and your future public domains.
+
+```html
+<img src="picture.jpg">
+in the same folder as the current page
+
+<img src="images/picture.jpg">
+in the images folder in the current folder
+
+<img src="/images/picture.jpg">
+at the root of the current web
+
+<img src="../picture.jpg">
+in the folder one level up from the current folder
 ```

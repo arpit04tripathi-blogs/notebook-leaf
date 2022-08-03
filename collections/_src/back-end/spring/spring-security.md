@@ -22,6 +22,7 @@ permalink: /spring/security
     - [Spring Boot Token based Authentication with Spring Security & JWT](https://bezkoder.com/spring-boot-jwt-authentication/){:target="_blank"}
 * [spring-security-authentication](https://www.techtalks.lk/blog/2018/10/spring-security-authentication){:target="_blank"}
 * [Spring-Certification-Spring-Security](https://mossgreen.github.io/Spring-Certification-Spring-Security){:target="_blank"}
+* [Spring Security Filters](https://www.youtube.com/watch?v=dJ1ORGD22eM&list=PLGWM-WydG5jJeW7pu2RDkLvd-_-zDkqw3&index=2){:target="_blank"}
 
 # Introduction
 - Authentication : verifying identity (401 Unauthorized)

@@ -83,3 +83,7 @@ permalink: /cn
     - Working
   - Dynamic Host Configuration Protocol (DHCP)
     - Working at Home and Office Network
+
+
+[OSI Model](https://www.imperva.com/learn/application-security/osi-model/){:target="_blank"}
+
