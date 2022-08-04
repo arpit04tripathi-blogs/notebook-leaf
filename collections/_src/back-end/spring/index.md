@@ -26,6 +26,12 @@ permalink: /spring/
 
 ## Spring Core
 
+## Spring Security
+
+
+- [Spring Security](security)
+
+page 2 - diagram
 
 
 ## Spring Boot
