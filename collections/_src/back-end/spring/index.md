@@ -26,6 +26,21 @@ permalink: /spring/
 
 ## Spring Core
 
+## Spring Security
+
+Spring Security is a framework that provides
+- authentication
+- authorization (access control)
+- protection against common attacks - CSRF, distributed denial of service (DDoS) attack
+
+Nonfunctional software qualities - performance, scalability, availability and `security`  
+
+- References
+  - Spring Security - [Official](http://mng.bz/7Gz7){:target="_blank"}
+  - author’s YouTube account - [Spring Security Fundamentals playlist](http://mng.bz/mN4W){:target="_blank"}.
+- [Spring Security](security)
+
+page 2 - diagram
 
 
 ## Spring Boot
