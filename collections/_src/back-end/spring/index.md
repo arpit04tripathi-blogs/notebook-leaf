@@ -4,11 +4,7 @@ title: Spring Framework
 permalink: /spring/
 ---
 
-## Official Website
-
-- [Spring Projects](https://spring.io/projects){:target="\_blank"}
-- [Guides](https://spring.io/guides){:target="\_blank"}
-- [Learn](https://spring.io/learn){:target="\_blank"}
+**Official Website** - [Spring Projects](https://spring.io/projects){:target="\_blank"}, [Guides](https://spring.io/guides){:target="\_blank"}, [Learn](https://spring.io/learn){:target="\_blank"}
 
 ## Notes
 

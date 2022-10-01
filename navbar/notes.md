@@ -36,10 +36,7 @@ permalink: /notes
 - Containerization - [Docker](docker), [Containerization](containerization)
 - Container Orchestration - Kubernetes, Openshift (RedHat) , Hasicorp Nomad, Docker Swarm, [etc...](https://devopscube.com/docker-container-clustering-tools/){:target="\_blank"}
 
-**Architect Roadmap**
-- [Microservices](microservices)
-- [Distributed Systems](distributed-systems)
-- [System Design](system-design)
+**Architect Roadmap** - [Microservices](microservices), [Distributed Systems](distributed-systems), [System Design](system-design)
 
 **CSE Subjects**
 - [Data Structures](ds) and [Algorithms](algo)
@@ -48,10 +45,6 @@ permalink: /notes
 - [Computer Networks](cn)
 - Programming Basics : [Programming](programming-basics), [Cheat Sheet](cheatsheet), [Puzzles](puzzles)
 
-**Roadmaps**
-- [All Roadmaps](https://roadmap.sh/){:target="\_blank"}
-- [2021 Developer RoadMap](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html){:target="\_blank"}
+**Roadmaps** - [All Roadmaps](https://roadmap.sh/){:target="\_blank"}, [2021 Developer RoadMap](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html){:target="\_blank"}
 
-**Miscellaneous**
-- [Chrome Extn](chrome)
-- [Jekyll](jekyll)
+**Miscellaneous** - [Chrome Extn](chrome), [Jekyll](jekyll)

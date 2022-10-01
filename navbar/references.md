@@ -4,21 +4,13 @@ title: References
 permalink: /references
 ---
 
-**Architecture**
-
+**Blogs to follow**
 - [12 Factor App](https://12factor.net){:target="\_blank"}
 - [Microsoft Documentation](https://docs.microsoft.com/en-us/azure/architecture/guide/){:target="\_blank"}
 - [microservices.io](https://microservices.io/){:target="\_blank"}
+- [baeldung](https://www.baeldung.com/){:target="\_blank"}
 
-**Playlist**
-
-- [Docker](https://www.youtube.com/watch?v=3c-iBn73dDE){:target="\_blank"}
-
-**Jekyll**
-
-- [Jekyll](https://jekyllrb.com){:target="\_blank"}
-  - [local with docker](https://www.youtube.com/watch?v=ZHQ3IwIL590){:target="\_blank"}
-  - [themes](https://jekyllrb.com/docs/themes/){:target="\_blank"}
+**Jekyll** - [official website](https://jekyllrb.com){:target="\_blank"}, [local with docker](https://www.youtube.com/watch?v=ZHQ3IwIL590){:target="\_blank"}, [themes](https://jekyllrb.com/docs/themes/){:target="\_blank"}
 
 **MOOC** - [Udemy](https://www.udemy.com/home/my-courses/collections){:target="\_blank"}
 
@@ -28,7 +20,7 @@ permalink: /references
 [edureka]: https://www.youtube.com/user/edurekaIN/playlists
 [simplilearn]: https://www.youtube.com/c/SimplilearnOfficial/videos
 
-**Online Programming** - [LeetCode]{:target="\_blank"}, [InterviewBit]{:target="\_blank"}, [HackerRank]{:target="\_blank"}, [HackerEarth]{:target="\_blank"}
+**Programming** - [LeetCode]{:target="\_blank"}, [InterviewBit]{:target="\_blank"}, [HackerRank]{:target="\_blank"}, [HackerEarth]{:target="\_blank"}
 
 [leetcode]: https://leetcode.com/contest
 [interviewbit]: https://interviewbit.com
@@ -56,12 +48,12 @@ permalink: /references
 
 [all it books.net]: https://allitbooks.net/
 
-**Online Tools** - [java formatter]{:target="\_blank"}, [java compiler]{:target="\_blank"}, [collabedit]{:target="\_blank"}, [WebSequenceDiagram]{:target="\_blank"}
+**Online Tools** - [java formatter]{:target="\_blank"}, [java compiler]{:target="\_blank"}, [collabedit]{:target="\_blank"}, [diagrams_net]{:target="\_blank"}
 
 [java formatter]: https://www.tutorialspoint.com/online_java_formatter.htm
 [java compiler]: https://www.tutorialspoint.com/compile_java_online.php
 [collabedit]: http://collabedit.com/
-[websequencediagram]: https://www.websequencediagrams.com/
+[diagrams_net]: https://app.diagrams.net/
 
 **Jekyll (Static Website Generator)** - [Jekyll Website](https://jekyllrb.com/docs){:target="\_blank"}
 
