@@ -29,7 +29,9 @@ permalink: /:collection/bm/uk
 
 # Articles
 
+- [Levels.fyi](https://www.levels.fyi/?compare=Google,Facebook,Amazon,JPMorgan%20Chase&track=Software%20Engineer){:target="\_blank"}
 - [amazon-sde1-seattle-oct-2019-offer](https://leetcode.com/discuss/interview-experience/418395/amazon-sde1-seattle-oct-2019-offer){:target="\_blank"}
+- [amazon-sde2-L5-uk](https://leetcode.com/discuss/compensation/2642145/Amazon-or-SDE2-L5-or-London-UK){:target="\_blank"}
 - [google-l3-oct-2019-offer](https://leetcode.com/discuss/interview-experience/418626/google-l3-oct-2019-offer){:target="\_blank"}
 - [7 steps to improve your data structure and algorithm skills](https://www.hackerearth.com/blog/developers/7-steps-to-improve-your-data-structure-and-algorithm-skills){:target="\_blank"}
 - [8 Steps to acing your next system design interview](https://www.hackerearth.com/blog/developers/8-steps-to-acing-your-next-system-design-interview){:target="\_blank"}
