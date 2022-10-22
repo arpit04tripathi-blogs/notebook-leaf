@@ -6,6 +6,11 @@ permalink: /spring/
 
 **Official Website** - [Spring Projects](https://spring.io/projects){:target="\_blank"}, [Guides](https://spring.io/guides){:target="\_blank"}, [Learn](https://spring.io/learn){:target="\_blank"}
 
+Spring in Action - pg 53
+
+- Applications composed of microservices destined for the cloud that persist data in a variety of databases.
+- Reactive programming aims to provide greater scalability and improved performance with non-blocking operations.
+
 ## Notes
 
 - [Latest in Spring](latest)
