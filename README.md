@@ -2,6 +2,14 @@
 
 Welcome to my dev Notebook.
 
+
+## localhost
+```
+sh local/docker-start.sh 
+```
+
+[http://localhost:4000/notebook/](http://localhost:4000/notebook/)
+
 ## URL links
 
 ```
@@ -14,3 +22,5 @@ xyz - www.example.com/home/about/xyz
 /xyz - www.example.com/xyz
 ./xyz - www.example.com/home/xyz
 ```
+
+
