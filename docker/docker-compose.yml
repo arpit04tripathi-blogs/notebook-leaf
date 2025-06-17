@@ -3,7 +3,7 @@ version: '3'
 services:
   server:
     image: jekyll/jekyll:4.2.2
-    container_name: notebook
+    container_name: notebook-leaf
     environment:
       MY_ENV_VAR_DUMMY: 'dummy'
     volumes:

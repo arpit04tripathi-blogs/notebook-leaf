@@ -1,10 +1,10 @@
-# notebook
+# notebook-leaf
 
 Welcome to my dev Notebook.
 
 # Running on local
 1. start server - `sh scripts/localhost.sh --start`
-   1. This will open chrome browser or you can visit [http://localhost:9999/notebook/](http://localhost:9999/notebook/)
+   1. This will open chrome browser or you can visit [http://localhost:9999/notebook-leaf/](http://localhost:9999/notebook-leaf/)
    2. Initially, you will see error page `This site can’t be reached`
    3. after some time when container has started, you will see the site running
 2. stop server - `sh scripts/localhost.sh --stop`
