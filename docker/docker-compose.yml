@@ -1,13 +1,13 @@
 # docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll:4.0 jekyll serve
 version: '3'
 services:
-  jekyll-server:
-    image: jekyll/jekyll:4.0
-    container_name: old-notebook
+  server:
+    image: jekyll/jekyll:4.2.2
+    container_name: notebook
     environment:
       MY_ENV_VAR_DUMMY: 'dummy'
     volumes:
       - '../.:/srv/jekyll'
     ports:
-      - 4000:4000 # (localhost port) => (docker port)
-    command: 'jekyll serve --incremental'
+      - 9999:4000 # (localhost port) => (docker port)
+    command: sh "docker/docker-compose.sh"
