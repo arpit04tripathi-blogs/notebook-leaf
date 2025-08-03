@@ -20,7 +20,7 @@ permalink: /notes
 - Cloud - [AWS](aws), NGINX, ELK, Azure
 
 **FrontEnd Technologies**
-- Basic - [HTML](html), [CSS](css), [Javascript](js), [SASS](sass)
+- Basic - ~~[HTML](html)~~, [CSS](css), [Javascript](js), [SASS](sass)
 - CSS Frameworks - [Bootstrap](bootstrap)
 - Frameworks - [Vue.js](vue), [Angular](angular)
 - Testing - [Jest (official)](https://jestjs.io/){:target="\_blank"}
