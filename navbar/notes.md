@@ -35,10 +35,10 @@ permalink: /notes
 **Architect Roadmap** - [Microservices](microservices), [Distributed Systems](distributed-systems), [System Design](system-design)
 
 **CSE Subjects**
-- [Data Structures](ds) and [Algorithms](algo)
-- [DBMS](dbms) and [SQL](sql)
-- [Operating Systems](os)
-- [Computer Networks](cn)
+- ~~[Data Structures](ds) and [Algorithms](algo)~~
+- ~~[DBMS](dbms) and [SQL](sql)~~
+- ~~[Operating Systems](os)~~
+- ~~[Computer Networks](cn)~~
 - Programming Basics : [Programming](programming-basics), [Cheat Sheet](cheatsheet), [Puzzles](puzzles)
 
 **Roadmaps** - [All Roadmaps](https://roadmap.sh/){:target="\_blank"}, [2021 Developer RoadMap](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html){:target="\_blank"}
