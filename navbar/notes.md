@@ -4,22 +4,14 @@ title: Notes
 permalink: /notes
 ---
 
-~~**Pre-requisites / Basics**~~
-- ~~[Git](git) - version control system~~
-- ~~[Clean Code](clean-code)~~
-- ~~Web Basics - [Http](http), [CORS](cors), [WebServices](webservices), [OWASP](owasp)~~
-
 **BackEnd Roadmap**
 - Dev - [Java](java), [Spring](spring/), [Hibernate](hibernate)
 - Testing - [JUnit](junit), Mockito, [Cucumber](cucumber)
 - Libraries - [JSON](json), [Lombok](lombok), [XML](xml), [Logger](logger)
 - API Doc - [Swagger](swagger)
-- ~~[Design Patterns](design-patterns)~~
 - Identity and Authorization - [Auth0](auth0)
 - Messaging - [Apache Kafka](kafka), RabbitMQ, SQS
 - Cloud - [AWS](aws), NGINX, ELK, Azure
-
-~~**FrontEnd Technologies**~~
 
 **Databases**
 - RDBMS - MySQL, Postgres, MSSQL
@@ -31,14 +23,5 @@ permalink: /notes
 - Automation - [jenkins](jenkins), Ansible, Checf
 - Containerization - [Docker](docker), [Containerization](containerization)
 - Container Orchestration - Kubernetes, Openshift (RedHat) , Hasicorp Nomad, Docker Swarm, [etc...](https://devopscube.com/docker-container-clustering-tools/){:target="\_blank"}
-
-~~**Architect Roadmap** - [Microservices](microservices), [Distributed Systems](distributed-systems), [System Design](system-design)~~
-
-~~**CSE Subjects**~~
-- ~~[Data Structures](ds) and [Algorithms](algo)~~
-- ~~[DBMS](dbms) and [SQL](sql)~~
-- ~~[Operating Systems](os)~~
-- ~~[Computer Networks](cn)~~
-- ~~Programming Basics : [Programming](programming-basics), [Cheat Sheet](cheatsheet), [Puzzles](puzzles)~~
 
 **Miscellaneous** - [Chrome Extn](chrome), [Jekyll](jekyll)
