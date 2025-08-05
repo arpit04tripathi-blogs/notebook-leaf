@@ -4,8 +4,8 @@ title: Notes
 permalink: /notes
 ---
 
-**Pre-requisites / Basics**
-- [Git](git) - version control system
+~~**Pre-requisites / Basics**~~
+- ~~[Git](git) - version control system~~
 - ~~[Clean Code](clean-code)~~
 - ~~Web Basics - [Http](http), [CORS](cors), [WebServices](webservices), [OWASP](owasp)~~
 
