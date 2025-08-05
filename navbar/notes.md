@@ -5,10 +5,8 @@ permalink: /notes
 ---
 
 **BackEnd Roadmap**
-- Dev - ~~[Java](java)~~, [Spring](spring/), ~~[Hibernate](hibernate)~~
 - Testing - [JUnit](junit), Mockito, [Cucumber](cucumber)
 - Libraries - [JSON](json), [Lombok](lombok), [XML](xml), [Logger](logger)
-- Identity and Authorization - [Auth0](auth0)
 - Messaging - [Apache Kafka](kafka), RabbitMQ, SQS
 
 
